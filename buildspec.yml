@@ -1,0 +1,10 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Build step: nothing to compile for static site"
+
+artifacts:
+  files:
+    - '**/*'
